@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python311"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.13.0"
+nbconvert = "^6.5.0"
+typing-extensions = "^4.2.0"
+black = "^22.3.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
